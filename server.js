@@ -3,9 +3,6 @@ const bcrypt = require('bcrypt');
 require('dotenv').config();
 const app = express();
 let port  = process.env.PORT;
-
-
-
 const users = [];
 var idValue = 1;
 var hashPassword;
