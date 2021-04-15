@@ -1,0 +1,36 @@
+<html>
+<head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body class="body-class">
+    <div class="card bg-light">
+<h1>Login Page</h1>
+<form action="/login" method="POST">
+<div class="form-group input-group">
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+		 </div>
+        <input name="email" class="form-control" placeholder="Email address" type="email" required>
+    </div>
+    <div class="form-group input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+        </div>
+        <input class="form-control" name="password" placeholder=" Password" type="password" required> 
+    </div>
+    <div class="form-group">
+          <button type="submit" class="btn btn-primary btn-block" style="margin-left: 150px;">  Login  </button> 
+    </div> 
+</div>
+</form>
+<a style="margin-top: -20px;" href="/register">Register</a>
+</div>
+</body>
+</html>
+
